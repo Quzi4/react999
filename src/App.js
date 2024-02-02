@@ -1,11 +1,11 @@
+import {Simpsons} from './Components/Simpsons'
 const App = () => {
-  return (
-      <div>
+    return (
         <div>
-          <h1>Hello</h1>
+            <div>
+                <Simpsons/>
+            </div>
         </div>
-      </div>
-  );
+    );
 };
-
 export {App};
